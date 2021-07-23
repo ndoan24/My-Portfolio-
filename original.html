@@ -1,0 +1,296 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <title>Ngoc Doan</title>
+
+</head>
+
+
+
+<body>
+    <nav class="navbarTop">
+        <ul class="navbarList" id="navscroll-spy">
+
+            <li>
+                <a href="#section-about"> About </a>
+            </li>
+            <li>
+                <a href="#section-projects"> Projects </a>
+            </li>
+            <li>
+                <a href="#section-skills"> Skills </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section id="section-home">
+        <div class="homeContainer">
+            <div class="homeMain">
+                <h1> My Name is Ngoc Doan. </h1>
+                <h2> A Web Developer </h2>
+
+<button onclick="typeWriter()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Designer, Developer, Freelancer, Photographer';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+            </div>
+            <hr>
+            <div class="homeSecondary">
+                <a href="#section-about">
+                    <h2> Learn more </h2>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+         
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+
+
+
+
+    <section id="section-about">
+        <div class="aboutContainer">
+
+            <div class="aboutTitle">
+                <div>
+                    <h1> About Me </u> </h1>
+                </div>
+                <div>
+                    <img src="images/white.png" id="profile">
+                </div>
+            </div>
+            <div class="aboutSummary">
+                <p>
+                    After obtaining a degree in Fashion Merchandising from Colorado State University in 2016, and working in Fashion for four years, I decided to pursue coding fulltime.
+                    I started my Web Development career by completing the first Web Development Graduating Class 2021 from <a href="https://www.emilygriffith.edu/programs/web-development/"> <u> Emily Griffith Technical College</u></a>
+                </p>
+
+                <p>
+                    I am continuously working on learning new skills by creating and improving web applications. See all my projects
+                    <a href="#section-projects"><u>here.</u> </a>
+
+                </p>
+
+                <p>
+                    I am proficient in a multitude of languages and frameworks including HTML, CSS, Javascript, React, MySQL, Node.js, Express, Mongoose, MongoDB and Bootstrap.
+                    I am actively looking for web development opportunities, <a
+                        href="https://www.linkedin.com/in/ngocdoan1/" target="_blank"><u>lets
+                            connect!</u> </a>
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section-projects" class="bg-dark">
+        <div class="">
+            <div class="text-center mb-5">
+                <h1 class="h1 text-light"> <u> Personal Projects</u> </h1>
+            </div>
+
+            <div id="carousel-caption" class="carousel slide" data-ride="carousel" data-interval="false">
+                <ol class="carousel-indicators d-flex">
+                    <li data-target="#carousel-caption" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-caption" data-slide-to="1"></li>
+                    <li data-target="#carousel-caption" data-slide-to="2"></li>
+                    <li data-target="#carousel-caption" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner text-dark">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-12 col-md-6 d-flex align-items-center">
+                                <img src="" class="w-100" style="min-height: 300px"
+                                    alt="blog app">
+                            </div>
+                            <div class="col-12 col-md-5 d-flex align-items-center ">
+                                <div class="text-white">
+                                    <div class="text-center project-title  d-none d-md-block">
+                                        <b> JAVA ATM Project </b>
+                                    </div>
+
+                                    <ul>
+                                        <li class="pt-2">
+                                            
+
+                                        </li>
+                                        <li class="pt-2">
+                                          
+                                        </li>
+                                        <li class="pt-2">
+                                            
+                                        </li>
+                                        <li class="pt-2">
+                                           
+                                        </li>
+                                        <li class="pt-2">
+                                      
+                                        </li>
+                                        <li class="pt-2">
+                                            Source code <a class="text-white"
+                                                href="https://github.com/mvangin/weatherApp" target="_blank">
+                                                <u>here</u></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                       x
+    </section>
+
+
+    <section id="section-skills">
+        <div class="skillsTitle">
+            <h1> <u> Skills</u> </h1>
+        </div>
+        <div class="skillsGenContainer">
+            <div class="skillsCatContainer">
+                <div class="skillsTitle">
+                    <h1>
+                        Front-end
+                    </h1>
+                </div>
+                <ul>
+                    <li>HTML5 </li>
+                    <li>CSS3</li>
+                    <li>Javascript </li>
+                    <li>React </li>
+                    <li>Bootstrap </li>
+                </ul>
+            </div>
+
+
+
+            <div class="skillsCatContainer">
+                <div class="skillsTitle">
+                    <h1>
+                        Back-end
+                    </h1>
+                </div>
+
+                <ul>
+                    <li>
+                        Node.js
+                    </li>
+                    <li>
+                        Express
+                    </li>
+                    <li>
+                        Java
+                    </li>
+                    <li>
+                        MongoDB
+                    </li>
+                </ul>
+            </div>
+
+            <div class="skillsCatContainer">
+                <div class="skillsTitle">
+                    <h1>
+                        Additional
+                    </h1>
+                </div>
+                <ul>
+                    <li>Git + Github</li>
+                    <li>Cloud-based hosting using Heroku and Github Pages </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://github.com/mvangin/"> <img src="images/GitHubLogo.png" style="width:100px"> </a>
+        </div>
+        <div>
+            Ngoc Doan
+        </div>
+        <div>
+            <a href=""> <img src="images/linkedIn2.png"
+                    style="width:100px" /> </a>
+        </div>
+    </footer>
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"
+        integrity="sha512-HYG9E+RmbXS7oy529Nk8byKFw5jqM3R1zzvoV2JnltsIGkK/AhZSzciYCNxDMOXEbYO9w6MJ6SpuYgm5PJPpeQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <script>
+        $(function () {
+            var scroll = SmoothScroll('a[href*="#section-"]')
+        })
+
+
+        ScrollReveal({ distance: '500px', delay: 50, easing: 'ease-in-out' });
+
+        ScrollReveal().reveal('.aboutTitle img');
+        ScrollReveal().reveal('.aboutSummary');
+        ScrollReveal().reveal('.carousel-inner');
+        ScrollReveal().reveal('.skillsCatContainer');
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.nav-link:hover {
+    border-bottom: 2px white solid;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+
+}
+#fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.jumbotron {
+    min-height: 100vh;
+    background: rgba(204, 72, 19, 0.959);
+}
+
+hr {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.learn-more:hover {
+    transform: scale(.96)
+}
+
+#profile {
+    width: 150px;
+}
+
+section {
+    padding-top: 4rem;
+}
+
+#section-home {
+    margin: 0px;
+    padding-top: 0px;
+}
+
+
+
+.imageContainer {
+    border: 1px solid black;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;   
+}
+
+
+.carousel-caption {
+    background: rgba(0,0,0,.8);
+    right: 0px;
+    left: 0px;
+}
+
+.project-title{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+.cardBG {
+    background: rgb(255, 174, 0);
+}
+
