@@ -7,8 +7,7 @@ This site is to show users more info about my Professional Portfolio in the tech
 
 ## **Developer**: Ngoc Doan
 ## **Place:** *Denver, CO*
-## **Institute: Emily Griffith Technical College
-## **Title**: Capstone Portfolio
+## **Title**: My Portfolio
 ## **Date: July 22, 2021
 
 ## **Goal**:
